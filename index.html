@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>İyilik İçin Yapay Zeka - Gönüllü Topluluğu</title>
+<meta name="description" content="Çevre, toplum sağlığı ve güvenlik için ücretsiz, açık AI araçları geliştiren kâr amacı gütmeyen gönüllü topluluğu. Sen de katıl.">
+<style>
+  :root{--ink:#0f172a;--muted:#64748b;--brand:#0d9488;--brand-d:#0f766e;--line:#e2e8f0;--soft:#f0fdfa;--card:#fff;--ok:#16a34a}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);line-height:1.6;background:#f8fafc}
+  .wrap{max-width:880px;margin:0 auto;padding:0 18px}
+  a{color:var(--brand-d)}
+  .hero{background:linear-gradient(160deg,#0f172a,#134e4a 70%,#0d9488);color:#fff;padding:54px 0 46px;text-align:center}
+  .hero .wrap{padding:0 18px}
+  .badge{display:inline-block;background:rgba(255,255,255,.15);border:1px solid rgba(255,255,255,.3);border-radius:999px;padding:5px 13px;font-size:12px;font-weight:700;letter-spacing:.3px}
+  .hero h1{font-size:32px;margin:14px 0 6px}
+  .hero .slogan{color:#a7f3d0;font-size:16px;margin:0 0 14px}
+  .hero p{max-width:620px;margin:0 auto 22px;color:#e2e8f0;font-size:16px}
+  .cta{display:inline-block;background:#fff;color:var(--brand-d);text-decoration:none;font-weight:800;padding:13px 24px;border-radius:12px}
+  .cta:hover{background:var(--soft)}
+  section{padding:34px 0}
+  h2{font-size:22px;margin:0 0 6px}
+  .lead{color:var(--muted);margin:0 0 18px}
+  .grid{display:grid;gap:14px}
+  .g3{grid-template-columns:repeat(3,1fr)} .g2{grid-template-columns:repeat(2,1fr)}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+  .card h3{margin:0 0 6px;font-size:16px;color:var(--brand-d)}
+  .card p{margin:0;font-size:14px;color:#334155}
+  .pill{display:inline-block;background:var(--soft);color:var(--brand-d);border:1px solid #99f6e4;border-radius:999px;padding:3px 10px;font-size:12px;font-weight:700;margin:0 6px 6px 0}
+  .proof{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px;display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+  .proof .em{font-size:40px}
+  .proof .t{flex:1;min-width:220px}
+  .proof a.btn{display:inline-block;margin-top:8px;background:var(--brand);color:#fff;text-decoration:none;padding:9px 16px;border-radius:10px;font-weight:700;font-size:14px}
+  form{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  label{display:block;font-size:13px;font-weight:600;color:#334155;margin:12px 0 5px}
+  input,select,textarea{width:100%;padding:11px;border:1px solid var(--line);border-radius:10px;font-size:15px;font-family:inherit}
+  textarea{min-height:90px;resize:vertical}
+  .consent{display:flex;gap:9px;align-items:flex-start;margin-top:14px;font-size:13px;color:var(--muted)}
+  .consent input{width:18px;height:18px;margin-top:2px;flex:0 0 auto;accent-color:var(--brand)}
+  button.submit{margin-top:16px;width:100%;background:var(--brand);color:#fff;border:0;border-radius:12px;padding:14px;font-size:16px;font-weight:800;cursor:pointer}
+  button.submit:hover{background:var(--brand-d)}
+  .note{background:#fffbeb;border:1px solid #fde68a;border-radius:12px;padding:12px 14px;font-size:13px;color:#854d0e;margin-top:14px}
+  #ok{display:none;background:#f0fdf4;border:1px solid #bbf7d0;color:#15803d;border-radius:12px;padding:16px;text-align:center;font-weight:700;margin-top:14px}
+  footer{background:#0f172a;color:#cbd5e1;text-align:center;padding:26px 18px;font-size:13px}
+  @media(max-width:620px){.g3,.g2,.row{grid-template-columns:1fr}.hero h1{font-size:26px}}
+</style>
+</head>
+<body>
+  <div class="hero">
+    <div class="wrap">
+      <span class="badge">KÂR AMACI GÜTMEYEN GÖNÜLLÜ TOPLULUĞU</span>
+      <h1>İyilik İçin Yapay Zeka</h1>
+      <p class="slogan">Topluluk için, kâr amacı gütmeyen yapay zeka projeleri</p>
+      <p>Yapay zekayı; çevre, toplum sağlığı ve güvenlik için herkesin <b>ücretsiz</b> erişebileceği araçlara dönüştürüyoruz. Tek koşul: faydalı olsun, herkese açık olsun, kimseden para istemesin.</p>
+      <a class="cta" href="#basvur">Gönüllü Ol →</a>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <section>
+      <h2>Ne yapıyoruz?</h2>
+      <p class="lead">Üç alanda, somut ve ücretsiz araçlar üretiyoruz:</p>
+      <div class="grid g3">
+        <div class="card"><h3>🌱 Çevre</h3><p>Geri dönüşüm, afet/iklim hazırlığı, sürdürülebilirlik araçları.</p></div>
+        <div class="card"><h3>🩺 Toplum Sağlığı</h3><p>Erişilebilir bilgi, ilk yardım, sağlık okuryazarlığı.</p></div>
+        <div class="card"><h3>🛡️ Güvenlik</h3><p>Afet hazırlığı, acil durum planları, güvenli yaşam rehberleri.</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Konuşmuyoruz, üretiyoruz</h2>
+      <p class="lead">İlk aracımız çoktan yayında ve çevrimdışı çalışıyor:</p>
+      <div class="proof">
+        <div class="em">🆘</div>
+        <div class="t">
+          <b>Deprem & Acil Durum Hazırlık Rehberi</b>
+          <p style="margin:4px 0 0;color:#334155;font-size:14px">Çantadan aile planına, su/gıda hesaplayıcısından "deprem anında ne yapmalı"ya kadar; internet olmadan da çalışan, yazdırılabilir bir araç.</p>
+          <a class="btn" href="https://eraysenel.github.io/deprem-acil-durum-rehberi/" target="_blank" rel="noopener">Aracı gör →</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Aradığımız gönüllüler</h2>
+      <p class="lead">Haftada birkaç saat ayırabilen, üretmeyi seven herkes. Uzaktan ve esnek.</p>
+      <div class="grid g3">
+        <div class="card"><h3>💻 Yazılım Geliştirici</h3><p>Araçları hayata geçirir (HTML/JS, Python). Junior'lar dahil.</p></div>
+        <div class="card"><h3>🤖 AI / Veri Mühendisi</h3><p>Model entegrasyonu, veri işleme, otomasyon.</p></div>
+        <div class="card"><h3>🎨 UI/UX Tasarımcı</h3><p>Sade, erişilebilir, herkesin kullanabileceği arayüzler.</p></div>
+        <div class="card"><h3>🔬 Alan Uzmanı</h3><p>Çevre / sağlık / afet-güvenlik. Neyi çözeceğimizi ve doğruluğu belirler.</p></div>
+        <div class="card"><h3>✍️ İçerik & Sosyal Medya</h3><p>Anlatım, topluluk büyütme, paylaşım.</p></div>
+        <div class="card"><h3>🧭 Proje Koordinatörü</h3><p>Gönüllüleri organize eder, işleri yürütür.</p></div>
+      </div>
+      <p style="margin-top:14px">Ne kazanırsın: <span class="pill">Gerçek etki</span><span class="pill">Güçlü portföy</span><span class="pill">Yeni network</span><span class="pill">Referans</span><span class="pill">Birlikte üretmenin keyfi</span></p>
+    </section>
+
+    <section id="basvur">
+      <h2>Gönüllü başvurusu</h2>
+      <p class="lead">2 dakika sürer. Sana en kısa sürede döneriz.</p>
+      <form id="form">
+        <input type="hidden" name="access_key" value="BURAYA_WEB3FORMS_ACCESS_KEY">
+        <input type="hidden" name="subject" value="Yeni gönüllü başvurusu - İyilik İçin Yapay Zeka">
+        <input type="checkbox" name="botcheck" style="display:none">
+        <div class="row">
+          <div><label>Ad Soyad *</label><input name="ad" required placeholder="Adın"></div>
+          <div><label>E-posta *</label><input type="email" name="email" required placeholder="ornek@eposta.com"></div>
+        </div>
+        <div class="row">
+          <div><label>İlgilendiğin rol *</label>
+            <select name="rol" required>
+              <option value="">Seç...</option>
+              <option>Yazılım Geliştirici</option>
+              <option>AI / Veri Mühendisi</option>
+              <option>UI/UX Tasarımcı</option>
+              <option>Alan Uzmanı (çevre/sağlık/güvenlik)</option>
+              <option>İçerik & Sosyal Medya</option>
+              <option>Proje Koordinatörü</option>
+              <option>Henüz emin değilim</option>
+            </select>
+          </div>
+          <div><label>Haftalık ayırabileceğin süre</label>
+            <select name="sure">
+              <option>1-2 saat</option><option>3-5 saat</option><option>5-10 saat</option><option>10+ saat</option>
+            </select>
+          </div>
+        </div>
+        <label>Portföy / LinkedIn / GitHub (varsa)</label>
+        <input name="portfoy" placeholder="https://...">
+        <label>Neden katılmak istiyorsun?</label>
+        <textarea name="mesaj" placeholder="Birkaç cümle yeter."></textarea>
+        <label class="consent"><input type="checkbox" required> Bilgilerimin yalnızca bu gönüllü topluluğu kapsamında, benimle iletişim için kullanılacağını kabul ediyorum.</label>
+        <button class="submit" type="submit">Başvuruyu gönder</button>
+        <div id="ok">✅ Teşekkürler! Başvurun bize ulaştı. En kısa sürede döneceğiz.</div>
+        <div class="note">⚙️ <b>Site sahibine not:</b> Formu aktif etmek için <a href="https://web3forms.com" target="_blank" rel="noopener">web3forms.com</a>'dan (e-postanı girmen yeter, hesap gerekmez) ücretsiz bir <b>Access Key</b> al ve yukarıdaki <code>BURAYA_WEB3FORMS_ACCESS_KEY</code> yazan yeri onunla değiştir. Başvurular doğrudan e-postana düşer.</div>
+      </form>
+    </section>
+  </div>
+
+  <footer>
+    İyilik İçin Yapay Zeka · Kâr amacı gütmeyen gönüllü topluluğu · Tüm araçlar ücretsiz ve herkese açık.
+  </footer>
+
+<script>
+  document.getElementById('form').addEventListener('submit', async function(e){
+    e.preventDefault();
+    var f=e.target, key=f.access_key.value;
+    if(key.indexOf('BURAYA')===0){ alert('Form henüz aktif değil: site sahibinin Web3Forms Access Key eklemesi gerekiyor.'); return; }
+    var btn=f.querySelector('button.submit'); btn.disabled=true; btn.textContent='Gönderiliyor...';
+    try{
+      var res=await fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify(Object.fromEntries(new FormData(f)))});
+      var data=await res.json();
+      if(data.success){ f.style.display='none'; document.getElementById('ok').style.display='block'; }
+      else{ alert('Gönderilemedi: '+(data.message||'tekrar dene')); btn.disabled=false; btn.textContent='Başvuruyu gönder'; }
+    }catch(err){ alert('Bağlantı hatası: '+err.message); btn.disabled=false; btn.textContent='Başvuruyu gönder'; }
+  });
+</script>
+</body>
+</html>
